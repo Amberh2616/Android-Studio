@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/p11"
     android:gravity="center"
     tools:context=".MainActivity">
 
@@ -14,6 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:text="N/A"
+        android:textColor="#FFFFFF"
         android:textSize="22sp"/>
     <Button
         android:id="@+id/btnfilechoose"
@@ -24,11 +26,13 @@
         android:textStyle="bold"
         android:gravity="center"
         android:layout_marginBottom="30dp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#CDB58C"
         android:onClick="chooseFile"/>
 
-
-
     <Button
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#CDB58C"
         android:id="@+id/btnwritefile"
         android:layout_width="250dp"
         android:layout_height="80dp"
@@ -44,9 +48,10 @@
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:hint="Pls enter file name"
+        android:hint="請輸入新檔名"
         android:inputType="text"
         android:maxLines="1"
+        android:textColor="#FFFFFF"
         android:layout_marginTop="20dp" />
     <TextView
         android:id="@+id/filepath"
@@ -54,6 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:gravity="center"
-        android:text="File Path"
+        android:text="N/A"
+        android:textColor="#FFFFFF"
         android:textSize="14sp"/>
 </LinearLayout>
